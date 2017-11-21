@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "unibanca-d259d",
+  "private_key_id": "888a3fa1d5a1c6b5d1cd3baf76698b37d1c4b3c0",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDGKmAcseesVP5t\nwhqn1BP+dILrNF6NdHGIH+4C7xEQTbkO28ChKln9/G6u+97aP3kDImJXsTVLr4un\ndBjUS3f+eX3hiNPisvDczYxUXgaZDT8f4oeBEw+YvqXc9vHxeZKv3BNywyfRfSYN\nQ/rZAUyVo0O2TBSTWbGmczwd2kwOjN9UwAY7OMBthp+s5POZUQ3A+e33s2KxVVPz\nT5qs5wZXCr73pYuu45zoXA/OKup+IYYUxe2vksA+A8A0vfO5fp64RJs1yP0E3BAp\niu2fIcFCvrQaa9XJn1NNhMg1srj/IolXP2SzE5wqEC9Ef3IwerWdCVphbTAprnH9\nfnqXHSoTAgMBAAECggEAQqW23H/DDLUrOwvoviA4N0DFVUiwMkAC/QbMHGV+Ji8V\nudcTwsCFMsRnD2f7jAiD8Rdr3tVlONbKD+Aeh6v4J/iBa0yDAsAu/PwOocNb0bbg\nT5929mTMPpGEJDxTo+TA/m90hQj4x96g4R5HbBuhP8SAvft5ghNNCc/A3MNyCAQl\niWFJRiQ3MfJ6VNbYb5rjAnsQgsg6gSahPXOuLCkZmN96s01RSApDWIIILhdU5jq6\ntabDKQvocnKObHWFd/aAht12sQsSnjQkj4ipYjp+xYeLSxkDhHp+hSQqXruSlDDH\n9AQVs3oRK549SYcW9Se0VwKyRHlbol0U/Vf7oX7OlQKBgQD8pTEZYfCMDz7XDZ82\nLNa7xqoZ4ytHVGKQeuZ7u7C4eA23l2H6VCo4cGLZQmb+5DqlCywf8blRzQELcpHj\nDTzt1WDY40poYWmcdVIpfNjlfDLqOCFiuZvAUv7NU4eO9aU+hFxhCMOW8HvdCjXT\n88QeXio4LluPgd+FCvXLdtwOdQKBgQDIy/4XVdRsBdoMDU+/lyVEKHp6EGxVWYJE\naEL7vZyba8ubw8yy3R6A39xDCS8Rz+Do8UlIaO3xTxolQwATg0Z849Gmx0rKNnW2\nalV0blZjq5LYsNO8nfLBpNdkMt9P+P4itDljdGyYl8Ab2fzdOa4T1NNOjZik80VN\nQtkjQNzVZwKBgFEpyJI88ogsRaXUzHcdBIcilXbnkfnCVD/SG8VYULeSaeW3DlTb\nQQ0MndTqDiiIrYZkBnLktwJed51z2wY0NIS7bfd/XWIXGVSYJCML5qoiskCoc6FB\nu5WXlB/mW8BDjih9YSgTJrKQ41npc815nGGdIrcVvXhm4qXdFYWd06gZAoGBAL0s\nKntzmkgXD0FRfTOEQ1C+Tf0X4ehbBrZJ/+lJzvRCDzX1trFATw+dV9c0HMtMLJlp\nUOBOMvWnz3sRb03y3IKm44qbsWNnAWlVLqMdnHgUWamaljDaIa28DkzQ/MBMVaj+\nYB7JvdHZDd1vdqI5SD5YwKb+EbQ9mKncc9OZtTO7AoGAfBd+cfQnKM+mCIaaNrmS\ncxtYOHhBX9+5b72//N6ocXBtNEHUQ1EX3iGxlD3i+o1fOMOJ8+umz+XGPfT83KPB\noy3tQfSV9KFIcVJZhA3U0IElGqpFGKAZM77rVRs/r2SS3SGx8J5vQjMrMWhstpFn\nqxlK3FbqwK7BVtf4Yz+3T6M=\n-----END PRIVATE KEY-----\n",
+  "client_email": "unibanca-d259d@appspot.gserviceaccount.com",
+  "client_id": "105654520282384618544",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/unibanca-d259d%40appspot.gserviceaccount.com"
+}

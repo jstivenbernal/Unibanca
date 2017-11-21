@@ -4,6 +4,15 @@ const bodyParser = require('body-parser')
 const md5 = require('md5')
 const http = require('http');
 
+var admin = require("firebase-admin");
+
+var serviceAccount = require("../Unibanca-888a3fa1d5a1.json");
+
+admin.initializeApp({
+  credential: admin.credential.cert(serviceAccount),
+  databaseURL: "https://unibanca-d259d.firebaseio.com"
+});
+
 const app = express();
 const port = process.env.port || 3000
 app.use(bodyParser.urlencoded({ extended: false }))
@@ -30,6 +39,8 @@ var auth = 'Basic ' + new Buffer(user + ':' + password).toString('base64');
 
 
 app.get('/Unibanca/:id', (req, res) => {
+    var db = admin.database();
+    
     var direccion = '/AlphaBank/Data.svc/GetCustomerInfo/' + `${req.params.id}`;
     var options = {
         host: '192.190.42.100',
@@ -57,9 +68,12 @@ app.get('/Unibanca/:id', (req, res) => {
                 res.send('sin datos')
             }else{
                 data = JSON.parse(buffer)
+                var tokenDevices = db.ref("Log").push();
+                tokenDevices.set({
+                    data
+                });
                 res.send(data)
             }
-            
         })
         resq.on('err', function (err) {
             console.log('ocurrio un error' + err)
